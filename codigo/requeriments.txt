@@ -1,0 +1,21 @@
+Pasos para Configurar el Sistema
+#Instalar OpenCV en la Raspberry Pi:
+
+-->     sudo apt-get update
+-->     sudo apt-get install python3-opencv
+
+#Instalar RPi.GPIO:
+
+
+-->     sudo apt-get install python3-rpi.gpio
+-->     sudo apt-get update
+-->     sudo apt-get install python3-opencv python3-picamera
+-->     sudo apt-get install python3-rpi.gpio
+
+
+
+#Descargar y entrenar modelos XML:
+
+Puedes usar modelos preentrenados de Haar Cascades disponibles en OpenCV o entrenar 
+los tuyos si no encuentras modelos específicos para botellas de plástico, vidrio y cartón.
+
